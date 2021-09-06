@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTheLion123/TheoWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTheLion123/TheoWebsite/issues"
+  },
+  "homepage": "https://github.com/AlexTheLion123/TheoWebsite#readme"
+}
