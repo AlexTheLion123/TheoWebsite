@@ -488,7 +488,7 @@ p {
 
 @media (max-width: 550px) {
   body, html {
-    height: 300vh;
+    height: 420vh;
   }
   
   .mission-box {
@@ -542,6 +542,13 @@ p {
     width: 10px;
   }
 
+  #mission-box3 {
+    top: 6vh;
+  }
+
+  b {
+    font-weight: 600;
+  }
 }
 
 
