@@ -1,11 +1,14 @@
 body {
   font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
-  height: 200vh;
+  height: 100%;
   position: relative; 
   padding: 0;
   margin: 0px;
 }
+
+
+
   body:before {
     content: "";
     position: absolute;
@@ -398,7 +401,6 @@ p {
 }
 
 
-
 @media (max-width: 5000px){
   #main-text-home {
     font-size: 3rem;
@@ -445,10 +447,6 @@ p {
   }
 }
 
-
-
-
-
 @media (max-width: 950px){
   #main-text-home {
     font-size: 2.5rem;
@@ -489,28 +487,30 @@ p {
 }
 
 @media (max-width: 550px) {
+  body, html {
+    height: 300vh;
+  }
   
-
   .mission-box {
     height: auto;
     width: 100%;
     position: relative;
     background: red;
-    top: 1%;
+    top: 2vh;
     border-radius: 1vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
   }
 
-  #mission-text {
+  .mission-text {
     flex: 1 1 auto;
     height: auto;
     background: white;
     padding: 1rem;
   }
 
-  #main-text-home {
+  .main-text-home {
     font-size: 1.5rem;
     font-weight: 700;
     font-style: normal;
@@ -518,20 +518,30 @@ p {
     font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
   }
 
-  #mission-h1 {
+  .mission-h1 {
     line-height: 0.5;
   }
   
-  #mission-pic {
+  .mission-pic {
     background:  cyan;
     width: 100% !important;
     min-height: 200px;
     max-height: 200px;
   }
   
-  #img-portrait {
+  .img-portrait {
     height: 100%;
   }
+
+  #mission-box2 {
+    top: 4vh;
+  }
+
+  #diveristy {
+    height: 200px;
+    width: 10px;
+  }
+
 }
 
 
